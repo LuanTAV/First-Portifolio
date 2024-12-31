@@ -903,6 +903,7 @@ strong {
   padding-top: 80px;
   padding-bottom: 50px;
   text-align: center;
+  
 }
 
 .site-footer-title {
@@ -1236,4 +1237,24 @@ strong {
   margin: 0;
   text-align: left;
   font-size: 18px;
+}
+
+.map {
+  display: flex;          
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;          
+  background-color: #f8f9fa; 
+  padding: 20px;          
+  box-sizing: border-box; 
+}
+
+.map iframe {
+  max-width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+      scroll-behavior: auto;
+  }
 }
